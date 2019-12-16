@@ -1,5 +1,5 @@
 # TodoList-Ethereum
-*Prerequisites to run this application:*
+-*Prerequisites to run this application:*
 1. Install [Node](https://nodejs.org/en/download/)
 2. To ensure node is install properly, type the following in your Command Prompt/Terminal: ``` node -v ```
 3. Download [Ganache](https://www.trufflesuite.com/ganache). This will be your personal blockchain.
@@ -9,12 +9,12 @@
 7. To use Ganache, open the Ganache application -> New Workspace -> Add an appropriate workspace name -> Click on Add project -> Locate the cloned project and click on the truffle-config.js file -> Save Workspace
 8. To set up Metamask, click on the fox icon in the extension tab of your Chrome browser -> Create an account -> Click on Custom RPC for the Networks list -> Set Network Name to Private Network -> Set New RPC Url to HTTP://127.0.0.1:7545 -> Once this network is selected, click on Import Account from the Account Icon -> Paste the private key of the first account of Ganache
 
-*To compile the smart contract, type the following in your Command Prompt/Terminal:* ``` truffle compile ```
+-*To compile the smart contract, type the following in your Command Prompt/Terminal:* ``` truffle compile ```
 
-*To migrate your smart contract so that it connects to ganache, type the following in your Command Prompt/Terminal:* truffle migrate
+-*To migrate your smart contract so that it connects to ganache, type the following in your Command Prompt/Terminal:* ``` truffle migrate ```
 
-*To run the test cases of your smart contract, type the following in your Command Prompt/Terminal:* ``` truffle test ```
+-*To run the test cases of your smart contract, type the following in your Command Prompt/Terminal:* ``` truffle test ```
 
-*To run the project, type the following in your Command Prompt/Terminal:* ``` npm run dev ```
+-*To run the project, type the following in your Command Prompt/Terminal:* ``` npm run dev ```
 
-*Acknowledgement:* :+1: @dappuniversity
+-*Acknowledgement:* :+1: @dappuniversity
